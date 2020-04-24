@@ -1,0 +1,168 @@
+
+
+html{
+    font-family: 'nunito', serif;
+    color:  #18604A;
+}
+
+:root {
+    --color-greenobscuro: #18604A;
+    --color-lagune: #B0F5E2; 
+    --color-grey: #BEBEBE; 
+    --color-greylight: #F1F1F1;
+    --space-sm: 8px;
+    --border-size: 2px;
+}
+
+
+
+
+.container 
+{
+    background-color: var(--color-greylight);
+    width: 375px;
+    height: 812px;
+    position: relative;
+    align-items: flex-start;
+    display: flex;
+
+}
+
+
+
+.formbackground {
+    position: absolute;
+    width:258px; 
+    height:674px;
+    border-radius: 50px 0px 0px 50px;
+    margin-left: 117px;
+    margin-top: 138px;
+    background: linear-gradient(123.46deg, #B0F5E2 21.29%, #11BB74 94.65%);
+}
+
+h1 {
+font-style: bold;
+font-size: 24px;
+height: 20px;
+text-decoration: line-through;
+margin-top: 5px;
+}
+
+
+h2 {
+    font-size: 14px;
+    font-style: bold;
+    height: 10px;
+    margin-top:8px;
+    
+}
+
+
+#concerts{
+position: relative;
+display: flex;
+text-align: left;
+width: 500px;
+height: 200px;
+margin-top: 200px;
+border-radius: 20px;
+
+}
+
+.welove {
+    margin-top: 30px;
+    width: 176px;
+    height: 126px;
+}
+
+
+.textwelove {
+    height: 176px;
+    width: 170px;
+    padding-left: 20px;
+}
+
+#fond {
+    position: relative;
+}
+
+.picto {
+    position: absolute;
+    left: 260px;
+    top: -80px;
+}
+
+
+#saywho{
+position: relative;
+display: flex;
+text-align: left;
+width: 500px;
+height: 200px;
+margin-top: 550px;
+border-radius: 20px;
+left: -365px;
+}
+
+.say{
+    margin-top: 100px;
+    width: 176px;
+    height: 126px;
+
+}
+
+.textsaywho {
+    height: 176px;
+    width: 170px;
+    padding-left: 20px;
+    padding-top: 65px;
+}
+
+
+
+
+
+
+
+
+
+img{
+    
+    border-radius: 120px;
+    padding-right: 100px;
+    top: 350px;
+}
+
+p {
+    font-style: normal;
+    font-size: 12px;
+    height: 50px;
+
+}
+
+button {
+    background: red;
+}
+
+.btn {
+    padding: var(--space-sm);
+}
+
+
+.btn-primary {
+    padding: var(--space-sm);
+    background: var(--color-lagune)
+
+}
+
+.btn-secondary{
+
+   border: var(--border-size) solid var(--color-grey);
+   background: var(--color-greylight);}
+
+.btn:active {
+    border: var(--border-size) solid var(--color-greenobscuro);
+ 
+}
+
+
