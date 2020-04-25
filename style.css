@@ -4,7 +4,7 @@
 
 :root {
 
-    /*--FONT--*/
+    /*--COLOR--*/
     --color-greenobscuro: #18604A;
     --color-lagune: #B0F5E2; 
     --color-grey: #BEBEBE; 
@@ -22,6 +22,9 @@
     /*--BORDER AND RADIUS--*/
     --border-radius: 33px;
     --border-primary-hover: 1px;
+    --border-radius-back: 50px 0px 0px 50px;
+    --border-radius-20: 20px;
+    --border-radius-img: 120px;
 
     /*--FONT--*/
     --font-family: 'nunito', serif;
@@ -37,7 +40,22 @@
 /*--SHADOWS--*/
     --box-shadow-primary: 4px, 8px, 8px, rgba(65,65,65,0.25);
  
+
+    /*--MARGIN--*/
+
+    --margin-left-background: 117px;
+    --margin-top-nackground: 138px;
+    --margin-top-h1: 5px;
+    --margin-top-h2: 8px;
+    --margin-top-concert: 200px;
+    --margin-top-welove: 30px;
+    --margin-top-saywho: 550px;
+    --margin-top-say: 100px;
+    --margin-left-primary: 20px;
+    --margin-top-primary: 50px;
 }
+
+
 
 
 
@@ -58,28 +76,28 @@
     position: absolute;
     width:258px; 
     height:674px;
-    border-radius: 50px 0px 0px 50px;
-    margin-left: 117px;
-    margin-top: 138px;
+    border-radius: var(--border-radius-back);
+    margin-left: var(--margin-left-background);
+    margin-top: var(--margin-top-nackground);
     background: linear-gradient(123.46deg, #B0F5E2 21.29%, #11BB74 94.65%);
 }
 
 h1 {
-font-style: bold;
+font-style: var(--font-style-gras);
 font-family: var(--font-family);
 color: var(--color-greenobscuro);
 font-size: var(--font-size-24);
 height: 20px;
 text-decoration: line-through;
-margin-top: 5px;
+margin-top: var(--margin-top-h1);
 }
 
 
 h2 {
     font-size: var(--font-size-14);
-    font-style: bold;
+    font-style: var(--font-style-gras);
     height: 10px;
-    margin-top:8px;
+    margin-top: var(--margin-top-h2);
     font-family: var(--font-family);
     color: var(--color-greenobscuro);
     
@@ -92,13 +110,13 @@ display: flex;
 text-align: left;
 width: 500px;
 height: 200px;
-margin-top: 200px;
-border-radius: 20px;
+margin-top: var(--margin-top-concert);
+border-radius: var(--border-radius-20);
 
 }
 
 .welove {
-    margin-top: 30px;
+    margin-top: var(--margin-top-welove);
     width: 176px;
     height: 126px;
 }
@@ -127,13 +145,13 @@ display: flex;
 text-align: left;
 width: 500px;
 height: 200px;
-margin-top: 550px;
-border-radius: 20px;
+margin-top: var(--margin-top-saywho);
+border-radius: var(--border-radius-20);
 left: -365px;
 }
 
 .say{
-    margin-top: 100px;
+    margin-top: var(--margin-top-say);
     width: 176px;
     height: 126px;
 
@@ -151,7 +169,7 @@ left: -365px;
 
 img{
     
-    border-radius: 120px;
+    border-radius: var(--border-radius-img);
     padding-right: 100px;
     top: 350px;
 }
@@ -187,8 +205,8 @@ p {
     font-style: var(--font-style-habitude);
     text-align: center;
     border: none;
-    margin-left: 20px;
-    margin-top: 50px;
+    margin-left: var(--margin-left-primary);
+    margin-top: var(--margin-top-primary);
 
 }
 
