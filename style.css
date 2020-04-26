@@ -191,57 +191,7 @@ p {
 }
 
 
-.btn-primary {
-    padding: var(--space-sm);
-    background: var(--color-white);
-    border-radius: var(--border-radius);
-    width: 203px;
-    height: 63px;
-    left: 50px;
-    top: 281px;
-    font-size: var(--font-size-18);
-    font-family: var(--font-family);
-    color: var(--color-black);
-    font-style: var(--font-style-habitude);
-    text-align: center;
-    border: none;
-    margin-left: var(--margin-left-primary);
-    margin-top: var(--margin-top-primary);
-
-}
-
-
-.btn:disabled {
-    background: var(--color-white);
-    opacity: var(--opacity);
-    color: var(--color-black); 
-}
-
-.leger {
-    opacity: var(--opacity);
-}
-
-.btn:hover {
-    color: var(--color-white);
-    background: none;
-    border: solid;
-    border-width: var(--border-primary-hover);
-    border-color: var(--color-white);
-}
-
-.btn:focus {
-    box-shadow: var(--box-shadow-primary);
-    background: var(--color-white);
-    border: none;
-}
-
-.btn:active {
-    background: var(--color-aiguemarine);
-    color: var(--color-white);
-}
-
-
-
+/*DESIGN SYSTEM*/
 
 #designsystem {
     margin-top: 50px;
@@ -275,6 +225,64 @@ p {
     margin-left: 20px;
     margin-top: 20px;
 }
+
+
+/*--BOUTONS--*/
+
+/*--PRIMARY--*/
+
+.btn-primary {
+    padding: var(--space-sm);
+    background: var(--color-white);
+    border-radius: var(--border-radius);
+    width: 203px;
+    height: 63px;
+    left: 50px;
+    top: 281px;
+    font-size: var(--font-size-18);
+    font-family: var(--font-family);
+    color: var(--color-black);
+    font-style: var(--font-style-habitude);
+    text-align: center;
+    border: none;
+    margin-left: var(--margin-left-primary);
+    margin-top: var(--margin-top-primary);
+
+}
+
+
+.leger {
+    opacity: var(--opacity);
+}
+
+.btn-primary:focus {
+    box-shadow: var(--box-shadow-primary);
+    background: var(--color-white);
+    border: none;
+}
+
+.btn-primary:hover {
+    color: var(--color-white);
+    background: none;
+    border: solid;
+    border-width: var(--border-primary-hover);
+    border-color: var(--color-white);}
+
+.btn-primary:active {
+    background: var(--color-aiguemarine);
+    color: var(--color-white);
+    border: none;
+}
+
+.btn-primary:disabled {
+    background: var(--color-white);
+    opacity: var(--opacity);
+    color: var(--color-black); 
+}
+
+
+
+
 
 
 .textgroup {
