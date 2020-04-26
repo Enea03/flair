@@ -6,7 +6,9 @@
 
     /*--COLOR--*/
     --color-greenobscuro: #18604A;
+    --color-grass: #29C484;
     --color-lagune: #B0F5E2; 
+    --color-menthe: #B0F6E3;
     --color-grey: #BEBEBE; 
     --color-greylight: #F1F1F1;
     --color-white: #ffffff;
@@ -14,6 +16,12 @@
     --color-pluie: #6E99A9;
     --color-aiguemarine: #559CFF;
     --color-framboisedesbois: #B83985;
+    --color-aqua: #A9F4FE;
+    --color-blue: #9DDAEF;
+    --color-fushia: #FE48D6;
+    --color-framboise: #FB719B;
+    --color-bonbon: #FFDAE8;
+    --color-yellow: #FDC557;
     --opacity: 0.8;
 
     /*--SPACES--*/
@@ -225,7 +233,22 @@ p {
     margin-left: 70px;
     margin-top: 15px;
     font-family: var(--font-family);
-    font-style: var(--font-style-gras);
+    color: var(--font-color);
+    font-size: var(--font-size-14);
+}
+
+.grass {
+    background-color: var(--color-grass);
+    margin-left: 20px;
+    margin-top:20px;
+}
+
+.couleurgrass {
+    position: absolute;
+    display: flex;
+    margin-left: 70px;
+    margin-top: 15px;
+    font-family: var(--font-family);
     color: var(--font-color);
     font-size: var(--font-size-14);
 }
@@ -243,10 +266,27 @@ p {
     margin-left: 70px;
     margin-top: 15px;
     font-family: var(--font-family);
-    font-style: var(--font-style-gras);
     color: var(--font-color);
     font-size: var(--font-size-14);
 }
+
+.menthe {
+    background-color: var(--color-menthe);
+    margin-left: 20px;
+    margin-top: 20px;
+}
+
+.couleurmenthe {
+    position: absolute;
+    display: flex;
+    margin-left: 70px;
+    margin-top: 15px;
+    font-family: var(--font-family);
+    color: var(--font-color);
+    font-size: var(--font-size-14);
+}
+
+
 
 .greylight {
     background-color: var(--color-greylight);
@@ -260,7 +300,6 @@ p {
     margin-left: 70px;
     margin-top: 15px;
     font-family: var(--font-family);
-    font-style: var(--font-style-gras);
     color: var(--font-color);
     font-size: var(--font-size-14);
 }
@@ -278,10 +317,93 @@ p {
     margin-left: 70px;
     margin-top: 15px;
     font-family: var(--font-family);
-    font-style: var(--font-style-gras);
     color: var(--font-color);
     font-size: var(--font-size-14);
 }
+
+
+.black {
+    background-color: var(--color-black);
+    margin-left: 20px;
+    margin-top: 20px;
+}
+
+.couleurblack {
+    position: absolute;
+    display: flex;
+    margin-left: 70px;
+    margin-top: 15px;
+    font-family: var(--font-family);
+    color: var(--font-color);
+    font-size: var(--font-size-14);
+}
+
+
+.pluie {
+    background-color: var(--color-pluie);
+    margin-left: 20px;
+    margin-top: 20px;
+}
+
+.couleurpluie {
+    position: absolute;
+    display: flex;
+    margin-left: 70px;
+    margin-top: 15px;
+    font-family: var(--font-family);
+    color: var(--font-color);
+    font-size: var(--font-size-14);
+}
+
+.aiguemarine {
+    background-color: var(--color-aiguemarine);
+    margin-left: 20px;
+    margin-top: 20px;
+}
+
+
+.couleuraiguemarine {
+    position: absolute;
+    display: flex;
+    margin-left: 70px;
+    margin-top: 15px;
+    font-family: var(--font-family);
+    color: var(--font-color);
+    font-size: var(--font-size-14);
+}
+
+.aqua {
+    background-color: var(--color-aqua);
+    margin-left: 20px;
+    margin-top: 20px;
+}
+
+.couleuraqua {
+    position: absolute;
+    display: flex;
+    margin-left: 70px;
+    margin-top: 15px;
+    font-family: var(--font-family);
+    color: var(--font-color);
+    font-size: var(--font-size-14);
+}
+
+.blue {
+    background-color: var(--color-blue);
+    margin-left: 20px;
+    margin-top: 20px;
+}
+
+.couleurblue {
+    position: absolute;
+    display: flex;
+    margin-left: 70px;
+    margin-top: 15px;
+    font-family: var(--font-family);
+    color: var(--font-color);
+    font-size: var(--font-size-14);
+}
+
 
 .framboisedesbois {
     background-color: var(--color-framboisedesbois);
@@ -295,50 +417,70 @@ p {
     margin-left: 70px;
     margin-top: 15px;
     font-family: var(--font-family);
-    font-style: var(--font-style-gras);
     color: var(--font-color);
     font-size: var(--font-size-14);
 }
 
-.black {
-    background-color: var(--color-black);
+.fushia {
+    background-color: var(--color-fushia);
     margin-left: 20px;
     margin-top: 20px;
-    position: absolute;
-    display: flex;
-    margin-left: 300px;
-    margin-top: -322px;
 }
 
-.couleurblack {
+.couleurfushia {
     position: absolute;
     display: flex;
     margin-left: 70px;
     margin-top: 15px;
     font-family: var(--font-family);
-    font-style: var(--font-style-gras);
     color: var(--font-color);
     font-size: var(--font-size-14);
 }
 
-
-.pluie {
-    background-color: var(--color-pluie);
+.framboise {
+    background-color: var(--color-framboise);
     margin-left: 20px;
     margin-top: 20px;
-    position: absolute;
-    display: flex;
-    margin-left: 300px;
-    margin-top: -255px;
 }
 
-.couleurpluie {
+.couleurframboise {
     position: absolute;
     display: flex;
     margin-left: 70px;
     margin-top: 15px;
     font-family: var(--font-family);
-    font-style: var(--font-style-gras);
+    color: var(--font-color);
+    font-size: var(--font-size-14);
+}
+
+.bonbon {
+    background-color: var(--color-bonbon);
+    margin-left: 20px;
+    margin-top: 20px;
+}
+
+.couleurbonbon {
+    position: absolute;
+    display: flex;
+    margin-left: 70px;
+    margin-top: 15px;
+    font-family: var(--font-family);
+    color: var(--font-color);
+    font-size: var(--font-size-14);
+}
+
+.yellow {
+    background-color: var(--color-yellow);
+    margin-left: 20px;
+    margin-top: 20px;
+}
+
+.couleuryellow {
+    position: absolute;
+    display: flex;
+    margin-left: 70px;
+    margin-top: 15px;
+    font-family: var(--font-family);
     color: var(--font-color);
     font-size: var(--font-size-14);
 }
@@ -360,6 +502,11 @@ p {
     padding-top: 20px;
     padding-left: 20px;
 }
+
+
+
+
+
 
 /*--BOUTONS--*/
 
