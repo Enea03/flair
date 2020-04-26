@@ -26,7 +26,13 @@
 
     /*--SPACES--*/
 
-    --space-sm: 10px;
+    --space-xsmall: 6px;
+    --space-small: 12px;
+    --space-normal: 18px;
+    --space-medium: 36px; 
+    --space-large: 42px;
+    --splace-xlarge: 48px;
+
 
     /*--PADDING--*/
 
@@ -34,13 +40,19 @@
     --padding-secondary: 65px, 7px, 65px, 7px;
 
     /*--BORDER AND RADIUS--*/
-    --border-radius: 33px;
+    --border-radius-boutton-primary: 33px;
     --border-primary-hover: 1px;
     --border-radius-back: 50px 0px 0px 50px;
     --border-radius-20: 20px;
     --border-radius-img: 120px;
     --border-secondary: 1px;
     --border-secondary-radius: 4px;
+    --border-radius-navigation-barre: 88px;
+    --border-radius-photo-contact: 138.5px;
+    --border-radius-images-groupe: 5px, 120px, 120px, 0px;
+    --border-radius-photo-carré: 50px;
+    --border-radus-photo-rectangle: 15px, 15px, 0px, 15px;
+
 
     /*--FONT--*/
     --font-family: 'nunito', serif;
@@ -56,6 +68,8 @@
 /*--SHADOWS--*/
     --box-shadow-primary: 0px, 4px, 4px rgba(0,0,0,0.25);
     --box-shadow-secondary-hover: 4px, 8px, 8px rgba(0,0,0,0.25);
+    --bow-shadow-1: 3px, 3px, 6px rgba(16,16,16, 0.33);
+
  
 
     /*--MARGIN--*/
@@ -540,7 +554,7 @@ p {
 .btn-primary {
     padding: var(--padding-primary);
     background: var(--color-white);
-    border-radius: var(--border-radius);
+    border-radius: var(--border-radius-boutton-primary);
     width: 203px;
     height: 63px;
     left: 50px;
