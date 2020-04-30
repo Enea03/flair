@@ -277,7 +277,10 @@ body {
 
 main { 
     display: block;
-    padding: 50px;
+    padding-top: -10px;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-bottom: 20px;
     margin-left: 100px;
     height:3100px ;
     width: 750px;
