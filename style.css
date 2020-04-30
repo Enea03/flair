@@ -205,7 +205,7 @@ left: -365px;
 .textsaywho {
     height: 176px;
     width: 170px;
-    padding-left: 20px;
+    padding-left: var(--space-small);
     padding-top: 65px;
 }
 
