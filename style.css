@@ -116,7 +116,8 @@ h1 {
     font-size: var(--font-size-36);
     font-style: var(--font-style-gras);
     font-family: var(--font-family);
-    color: var(--color-grey)
+    color: var(--color-grey);
+    height: 45px;
 }
 
 
@@ -125,7 +126,7 @@ font-style: var(--font-style-gras);
 font-family: var(--font-family);
 color: var(--color-greenobscuro);
 font-size: var(--font-size-24);
-height: 20px;
+height: 29px;
 text-decoration: line-through;
 margin-top: var(--margin-top-h1);
 }
@@ -134,7 +135,7 @@ margin-top: var(--margin-top-h1);
 h3 {
     font-size: var(--font-size-14);
     font-style: var(--font-style-gras);
-    height: 10px;
+    height: 17px;
     margin-top: var(--margin-top-h2);
     font-family: var(--font-family);
     color: var(--color-greenobscuro);
