@@ -254,6 +254,12 @@ p {
         color: var(--color-black);  
     }
 
+    .soustitrespace {
+        font-size: var(--font-size-36);
+        font-family: var(--font-family);
+        color: var(--color-black); 
+    }
+
 /*DESIGN SYSTEM*/
 
 #designsystem {
@@ -648,5 +654,57 @@ p {
     background: var(--color-white);
     opacity: var(--opacity);
     color: var(--color-black); 
+}
+
+
+/*--SPACES--*/
+
+.textespace {
+    position: absolute;
+    display: flex;
+    margin-left: 70px;
+    font-family: var(--font-family);
+    color: var(--font-color);
+    font-size: var(--font-size-14);
+}
+.space1 {
+    height: 6px;
+    width: 6px;
+    border: solid;
+    border-color: var(--color-pluie);
+
+}
+
+.space2 {
+    height: 12px;
+    width: 12px;
+    border: solid;
+    border-color: var(--color-pluie);
+    margin-top: 20px;
+}
+
+.space3 {
+    height: 18px;
+    width: 18px;
+    border: solid;
+    border-color: var(--color-pluie);
+    margin-top: 20px;
+}
+
+.space4 {
+    height: 36px;
+    width: 36px;
+    border: solid;
+    border-color: var(--color-pluie);
+    margin-top: 20px;
+}
+
+.space5 {
+    height: 48px;
+    width: 48px;
+    border: solid;
+    border-color: var(--color-pluie);
+    margin-top: 20px;
+}
 }
 
