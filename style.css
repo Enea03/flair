@@ -263,8 +263,24 @@ p {
 
 /*DESIGN SYSTEM*/
 
+body {
+    display: flex
+}
+
+main {
+    display: block;
+    padding: 50px;
+    margin-left: 100px;
+    height:3000px ;
+    width: 900px;
+    border-radius: var(--border-radius-20);
+    box-shadow: 4px, 8px, 8px rgba(0,0,0,0.8);
+    
+
+}
 #designsystem {
     margin-top: 50px;
+    
 }
 
 
