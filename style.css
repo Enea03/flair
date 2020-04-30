@@ -66,9 +66,9 @@
     --font-size-12: 12px;
 
 /*--SHADOWS--*/
-    --box-shadow-primary: 0px, 4px, 4px rgba(0,0,0,0.25);
-    --box-shadow-secondary-hover: 4px, 8px, 8px rgba(0,0,0,0.25);
-    --bow-shadow-1: 3px, 3px, 6px rgba(16,16,16, 0.33);
+    --box-shadow-primary: 0px 4px 4px rgba(0,0,0,0.25);
+    --box-shadow-secondary-hover: 4px 8px 8px rgba(0,0,0,0.25);
+    --bow-shadow-1: 3px 3px 6px rgba(16,16,16,0.33);
 
  
 
@@ -261,6 +261,14 @@ p {
         color: var(--color-black); 
     }
 
+
+
+    .soustitreeffect {
+        font-size: var(--font-size-36);
+        font-family: var(--font-family);
+        color: var(--color-black); 
+    }
+
 /*DESIGN SYSTEM*/
 
 body {
@@ -271,8 +279,8 @@ main {
     display: block;
     padding: 50px;
     margin-left: 100px;
-    height:2800px ;
-    width: 900px;
+    height:3100px ;
+    width: 750px;
     border-radius: var(--border-radius-20);
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.5);
 }  
@@ -725,3 +733,35 @@ main {
     margin-top: 20px;
 }
 
+.effect1 {
+    height: 36px;
+    width: 36px;
+    background-color: var(--color-white);
+    box-shadow: var(--box-shadow-primary);
+}
+
+.effect2 {
+    height: 36px;
+    width: 36px;
+    margin-top: 20px;
+    background-color: var(--color-white);
+    box-shadow: var(--box-shadow-secondary-hover);
+}
+
+.effect3 {
+    height: 36px;
+    width: 36px;
+    margin-top: 20px;
+    background-color: var(--color-white);
+    box-shadow: var(--bow-shadow-1);
+}
+
+.texteeffect {
+    position: absolute;
+    display: flex;
+    margin-left: 70px;
+    margin-top: 5px;
+    font-family: var(--font-family);
+    color: var(--font-color);
+    font-size: var(--font-size-14);
+}
