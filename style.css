@@ -222,7 +222,7 @@ img{
 p {
     font-style: normal;
     font-size: var(--font-size-12);
-    height: 50px;
+   
     font-family: var(--font-family);
     color: var(--color-greenobscuro);
 
